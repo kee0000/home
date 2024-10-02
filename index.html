@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keelan's Stuff</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <style>
+        body {
+            font-family: Roboto, sans-serif;
+            background-color: #131314;
+            color: #ddd;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: inherit;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .card {
+            display: inline-block;
+            background-color: #222;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .card:hover {
+            background-color: #333;
+        }
+
+        .card button {
+            border: none;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'font-size' 24, 'line-height' 1.2;
+            vertical-align: -0.15em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Keelan's Stuff</h1>
+        <button class="card" onclick="search()">
+            <span class="material-symbols-outlined">
+            search
+            </span>Search
+        </button>
+        <button class="card" onclick="timerTab()">
+            <span class="material-symbols-outlined">
+            timer
+            </span>Timer Tab
+        </button>
+    </div>
+
+</body>
+</html>
